@@ -10,3 +10,4 @@ All steps below can be followed from [NodeJS tutorialspoint](https://www.tutoria
 - Callback is asynchronous.
 - Node API uses async function calls for concurrency.
 - `addListener` and `on` methods are same.
+- Writing stream example is combined with reading stream, the writer stream isn't printed out.
