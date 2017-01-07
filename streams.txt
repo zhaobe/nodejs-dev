@@ -1,1 +1,0 @@
-This is the input file for node js streams example.

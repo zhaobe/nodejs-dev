@@ -1,0 +1,1 @@
+This is the global input text file for js files that require it.
