@@ -2,7 +2,6 @@
   "name": "nodejs-dev",
   "version": "1.0.0",
   "description": "All steps below can be followed from [NodeJS tutorialspoint](https://www.tutorialspoint.com/nodejs/index.htm)",
-  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/zhaobe/nodejs-dev/issues"
   },
-  "homepage": "https://github.com/zhaobe/nodejs-dev#readme"
+  "homepage": "https://github.com/zhaobe/nodejs-dev#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
