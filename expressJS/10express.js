@@ -35,5 +35,5 @@ var server = app.listen(8081, function() {
     var host = server.address().address
     var port = server.address().port
     console.log("Listening at http://%s:%s", host, port);
-    console.log("Go to: http://127.0.0.1:8081")
+    console.log("Go to: http://127.0.0.1:8081");
 })
