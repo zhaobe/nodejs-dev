@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/zhaobe/nodejs-dev#readme",
   "dependencies": {
+    "body-parser": "^1.16.0",
     "express": "^4.14.0"
   }
 }
