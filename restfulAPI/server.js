@@ -32,5 +32,5 @@ var server = app.listen(8081, function() {
     var port = server.address().port
     console.log("Listening at http://%s:%s", host, port);
     console.log("To list users : http://127.0.0.1:8081/listUsers");
-    console.log("To add user   : http://127.0.0.1:8081/addUser");
+    console.log("To add user   : enter this in postman http://127.0.0.1:8081/addUser");
 })
