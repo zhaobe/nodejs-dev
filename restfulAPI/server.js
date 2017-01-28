@@ -13,6 +13,7 @@ var user = {
 
 var id = 2;
 
+//get request
 app.get('/listUsers', function(req, res) {
     fs.readFile( __dirname + "/" + "users.json", 'utf8', function(err, data) {
         console.log(data);
@@ -20,6 +21,7 @@ app.get('/listUsers', function(req, res) {
     });
 })
 
+//post request
 app.post('/addUser', function (req, res) {
     fs.readFile( __dirname + "/" + "users.json", 'utf8', function(err, data) {
         data = JSON.parse(data);
@@ -29,6 +31,7 @@ app.post('/addUser', function (req, res) {
     });
 })
 
+//delete request
 app.delete('/deleteUser', function (req, res) {
     fs.readFile( __dirname + "/" + "users.json", 'utf8', function(err, data) {
         data = JSON.parse(data);
